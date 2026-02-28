@@ -12,3 +12,21 @@ Complete shader development skill with:
 - Performance optimization & best practices
 - Troubleshooting guide for common errors
 - Clean starter templates
+
+### Houdini VEX (`hou-vex`)
+Complete VEX programming skill for SideFX Houdini with:
+- 40+ ready-to-use VEX snippets
+- All wrangle contexts (Point, Prim, Detail, Vertex)
+- Complete VEX function reference
+- Performance optimization & best practices
+- Troubleshooting guide for common errors
+- Starter templates for each context
+
+### SuperCollider Sound Design (`sc-designer`)
+Sound design and algorithmic composition skill with:
+- SynthDef creation with idiomatic SC style
+- Pattern-based composition (Pbind, Pdef, JITLib)
+- Synthesis techniques (FM, granular, physical modeling, additive, subtractive)
+- DSP effects chains (filters, reverb, delay, spectral processing)
+- Creative vocabulary rooted in Chion's listening modes
+- Adaptive skill level detection (intermediate/advanced)

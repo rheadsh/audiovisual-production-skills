@@ -1,0 +1,25 @@
+// ============================================
+// POINT WRANGLE TEMPLATE
+// Runs once per point in parallel
+// ============================================
+
+// ACCESS AUTOMATIC ATTRIBUTES
+// @P       - position (vector)
+// @N       - normal (vector)
+// @Cd      - color (vector)
+// @pscale  - point scale (float)
+// @ptnum   - current point number (int)
+// @numpt   - total points (int)
+
+// CREATE CUSTOM ATTRIBUTES (with defaults)
+// vector @velocity = {0,0,0};
+// float @age = 0.0;
+// int @id = -1;
+
+// GET PARAMETER VALUES
+// float param = chf("parameter_name");
+// vector param = chv("parameter_name");
+// int param = chi("parameter_name");
+
+// YOUR CODE HERE
+@P += @N * 0.1;
