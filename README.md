@@ -5,13 +5,23 @@ A curated collection of production-ready skills for audiovisual workflows in Cla
 ## Available Skills
 
 ### TouchDesigner GLSL (`td-glsl`)
-Complete shader development skill with:
+Pixel shader development skill with:
 - 11 ready-to-use shader patterns
 - 5 production examples (kaleidoscope, particles, reaction-diffusion, SDF rendering, color grading)
 - Complete TouchDesigner GLSL API reference
 - Performance optimization & best practices
 - Troubleshooting guide for common errors
 - Clean starter templates
+
+### TouchDesigner GLSL Vertex (`td-glsl-vertex`)
+Vertex shader development skill for TouchDesigner's GLSL MAT operator with:
+- Complete vertex + pixel shader pair workflow
+- Vertex displacement, wave deformation, and mesh animation patterns
+- Instancing support with per-instance data sampling
+- TD vertex function reference (TDDeform, TDWorldToProj, etc.)
+- Varying patterns & interpolation modes
+- Phong and PBR lighting reference
+- Starter templates (basic, displacement, instancing, lit)
 
 ### Houdini VEX (`hou-vex`)
 Complete VEX programming skill for SideFX Houdini with:
