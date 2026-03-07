@@ -23,6 +23,15 @@ Vertex shader development skill for TouchDesigner's GLSL MAT operator with:
 - Phong and PBR lighting reference
 - Starter templates (basic, displacement, instancing, lit)
 
+### TouchDesigner GLSL POPs (`td-pops`)
+GLSL compute shader skill for TouchDesigner's POP (Point Operator) family with:
+- GLSL POP, GLSL Advanced POP, GLSL Copy POP, and GLSL Select POP support
+- Particle systems, point cloud manipulation, and GPU-driven simulations
+- Compute shader patterns for attraction, noise displacement, age-based fading
+- Instancing workflows with GLSL Copy POP
+- Complete GLSL POP API reference (TDIndex, TDIn_ accessors, SSBO output arrays)
+- Starter templates for each POP operator type
+
 ### Houdini VEX (`hou-vex`)
 Complete VEX programming skill for SideFX Houdini with:
 - 40+ ready-to-use VEX snippets
