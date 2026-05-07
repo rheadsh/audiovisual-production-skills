@@ -32,6 +32,15 @@ GLSL compute shader skill for TouchDesigner's POP (Point Operator) family with:
 - Complete GLSL POP API reference (TDIndex, TDIn_ accessors, SSBO output arrays)
 - Starter templates for each POP operator type
 
+### TouchDesigner Python (`td-python`)
+Python scripting skill for TouchDesigner with:
+- Parameter expressions, callback DATs, Script OPs, Extensions, and module patterns
+- 15+ ready-to-use templates (expressions, CHOP/parameter/panel execute, Script CHOP/TOP/SOP/DAT, extensions, modules)
+- 6 complete real-world examples (sequencer, responsive component, OSC mapper, data dashboard, generative geometry, startup initializer)
+- Full TD Python API reference (me, op, par, absTime, ext, mod, DATs, CHOPs, TOPs, SOPs)
+- Troubleshooting guide for common errors (.eval(), module recompile, None references, threading)
+- Best practices for performance, organization, and extension design
+
 ### Houdini VEX (`hou-vex`)
 Complete VEX programming skill for SideFX Houdini with:
 - 40+ ready-to-use VEX snippets
