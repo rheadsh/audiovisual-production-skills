@@ -2,6 +2,33 @@
 
 A curated collection of production-ready skills for audiovisual workflows in Claude Code or any other supported workflows. Build, optimize, and share expertise across creative coding, real-time graphics, video processing, and interactive media production.
 
+## Installation
+
+Copy any skill folder into the skills directory for your AI coding assistant.
+
+### For GitHub CoPilot
+
+```bash
+cp -r <skill-folder> <workspace-root>/.github/skills/     # workspace
+cp -r <skill-folder> ~/.copilot/skills/                    # global
+```
+
+### For Antigravity
+
+```bash
+cp -r <skill-folder> <workspace-root>/.agent/skills/      # workspace
+cp -r <skill-folder> ~/.gemini/antigravity/skills/         # global
+```
+
+### For Claude Code
+
+```bash
+cp -r <skill-folder> <workspace-root>/.claude/skills/     # workspace
+cp -r <skill-folder> ~/.claude/skills/                     # global
+```
+
+See each skill's `README.md` for exact folder names and usage examples.
+
 ## Available Skills
 
 ### TouchDesigner GLSL (`td-glsl`)

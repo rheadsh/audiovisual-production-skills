@@ -24,16 +24,46 @@ houdini-vex/
 
 ## Installation
 
-### For Personal Use
+### For GitHub CoPilot
+
+#### Workspace-specific
+
 ```bash
-cp -r houdini-vex ~/.claude/skills/
+cp -r hou-vex <workspace-root>/.github/skills/<skill-folder>/
 ```
 
-### For Team/Project
+#### Global (all workspaces)
+
 ```bash
-cp -r houdini-vex /path/to/project/.claude/skills/
-git add .claude/skills/houdini-vex
-git commit -m "Add Houdini VEX skill"
+cp -r hou-vex ~/.copilot/skills/<skill-folder>/
+```
+
+### For Antigravity
+
+#### Workspace-specific
+
+```bash
+cp -r hou-vex <workspace-root>/.agent/skills/<skill-folder>/
+```
+
+#### Global (all workspaces)
+
+```bash
+cp -r hou-vex ~/.gemini/antigravity/skills/<skill-folder>/
+```
+
+### For Claude Code
+
+#### Workspace-specific
+
+```bash
+cp -r hou-vex <workspace-root>/.claude/skills/
+```
+
+#### Global (all workspaces)
+
+```bash
+cp -r hou-vex ~/.claude/skills/
 ```
 
 ## Usage

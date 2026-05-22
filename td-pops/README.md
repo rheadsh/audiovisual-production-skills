@@ -53,6 +53,20 @@ cp -r td-pops <workspace-root>/.agent/skills/<skill-folder>/
 cp -r td-pops ~/.gemini/antigravity/skills/<skill-folder>/
 ```
 
+### For Claude Code
+
+#### Workspace-specific
+
+```bash
+cp -r td-pops <workspace-root>/.claude/skills/
+```
+
+#### Global (all workspaces)
+
+```bash
+cp -r td-pops ~/.claude/skills/
+```
+
 
 ## Usage
 

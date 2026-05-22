@@ -45,6 +45,20 @@ cp -r sc-designer <workspace-root>/.agent/skills/<skill-folder>/
 cp -r sc-designer ~/.gemini/antigravity/skills/<skill-folder>/
 ```
 
+### For Claude Code
+
+#### Workspace-specific
+
+```bash
+cp -r sc-designer <workspace-root>/.claude/skills/
+```
+
+#### Global (all workspaces)
+
+```bash
+cp -r sc-designer ~/.claude/skills/
+```
+
 ## Usage
 
 LLM will automatically use this skill when you:

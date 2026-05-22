@@ -52,6 +52,20 @@ cp -r td-glsl <workspace-root>/.agent/skills/<skill-folder>/
 cp -r td-glsl ~/.gemini/antigravity/skills/<skill-folder>/
 ```
 
+### For Claude Code
+
+#### Workspace-specific
+
+```bash
+cp -r td-glsl <workspace-root>/.claude/skills/
+```
+
+#### Global (all workspaces)
+
+```bash
+cp -r td-glsl ~/.claude/skills/
+```
+
 
 ## Usage
 
