@@ -77,6 +77,16 @@ Complete VEX programming skill for SideFX Houdini with:
 - Troubleshooting guide for common errors
 - Starter templates for each context
 
+### Houdini Python (`hou-python`)
+Python (HOM) scripting skill for SideFX Houdini with:
+- Procedural modeling translated from traditional craft: carving (wood/stone/wax, subtractive) and clay sculpting (water/oil/polymer, additive)
+- Animation via HOM: the 12 principles as keyframe interpolation + expressions, and optimized time math
+- Python-driven render automation (Karma/Mantra/ROP), frame-range farming, wedging, and an optimization checklist
+- Full HOM API reference (Node, Geometry, Parm, Keyframe, ROPs, math) verified against the Houdini 21 docs
+- Copy-paste patterns, complete systems (carved relief, clay sculpt, bounce rig, render farm, scene auditor)
+- Best practices (bulk attributes, Python-vs-VEX) and a troubleshooting guide
+- Starter templates (Python SOP, animation rig, headless batch render)
+
 ### SuperCollider Sound Design (`sc-designer`)
 Sound design and algorithmic composition skill with:
 - SynthDef creation with idiomatic SC style
