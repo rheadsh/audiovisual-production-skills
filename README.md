@@ -6,13 +6,6 @@ A curated collection of production-ready skills for audiovisual workflows in Cla
 
 Copy any skill folder into the skills directory for your AI coding assistant.
 
-### For GitHub CoPilot
-
-```bash
-cp -r <skill-folder> <workspace-root>/.github/skills/     # workspace
-cp -r <skill-folder> ~/.copilot/skills/                    # global
-```
-
 ### For Antigravity
 
 ```bash
@@ -25,6 +18,30 @@ cp -r <skill-folder> ~/.gemini/antigravity/skills/         # global
 ```bash
 cp -r <skill-folder> <workspace-root>/.claude/skills/     # workspace
 cp -r <skill-folder> ~/.claude/skills/                     # global
+```
+
+### For Codex
+
+Codex reads skills from `.agents/skills` directories (scanned from your working directory up to the repo root) and from `~/.agents/skills` for user-global skills. See the [Codex skills docs](https://developers.openai.com/codex/skills).
+
+```bash
+cp -r <skill-folder> <repo-root>/.agents/skills/          # repo / workspace
+cp -r <skill-folder> ~/.agents/skills/                     # user (global)
+```
+
+Codex detects skill changes automatically; restart Codex if a new skill doesn't appear. To disable a skill without removing it, add a `[[skills.config]]` entry pointing at its `SKILL.md` in `~/.codex/config.toml`:
+
+```toml
+[[skills.config]]
+path = "/path/to/<skill-folder>/SKILL.md"
+enabled = false
+```
+
+### For GitHub CoPilot
+
+```bash
+cp -r <skill-folder> <workspace-root>/.github/skills/     # workspace
+cp -r <skill-folder> ~/.copilot/skills/                    # global
 ```
 
 See each skill's `README.md` for exact folder names and usage examples.
