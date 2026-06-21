@@ -1,6 +1,6 @@
 # Audiovisual Production Skills
 
-A curated collection of production-ready skills for audiovisual workflows in Claude Code or any other supported workflows. Build, optimize, and share expertise across creative coding, real-time graphics, video processing, and interactive media production.
+A curated collection of production-ready Skills for audiovisual workflows. Build, optimize, and share expertise across creative coding, real-time graphics, video processing, and interactive media production.
 
 ## Installation
 
