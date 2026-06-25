@@ -104,6 +104,17 @@ Python (HOM) scripting skill for SideFX Houdini with:
 - Best practices (bulk attributes, Python-vs-VEX) and a troubleshooting guide
 - Starter templates (Python SOP, animation rig, headless batch render)
 
+### Houdini Redshift (`hou-rs`)
+Redshift render optimization skill for SideFX Houdini with:
+- Two fully specified render targets: hyperrealistic (full GI, fine sampling) and stylistic (art-directed light, faked/low GI, clamped highlights)
+- Sampling, GI engine selection, trace depth, and denoise guidance with concrete presets
+- Lighting optimization: per-light samples, placement, dome/IBL importance sampling, portals, GI control
+- Shaders & textures: RS Standard Material PBR, displacement, and the `.rstexbin` texture pipeline
+- CLI / farm rendering: `redshiftCmdLine`, `.rs` archive export, hython/husk, env vars, chunked dispatch
+- Optimization-first advice that names the noise source and trade-off for every knob
+- Best practices (VRAM, proxies, animation flicker) and a troubleshooting guide
+- Starter templates (configure ROP preset, batch render, texture processing)
+
 ### SuperCollider Sound Design (`sc-designer`)
 Sound design and algorithmic composition skill with:
 - SynthDef creation with idiomatic SC style
